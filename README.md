@@ -1,4 +1,4 @@
-## Bitcoin runed node server
+## Bitcoin Pruned Node Server
 
 Setup for a server hosting a Bitcoin pruned node based on Ubuntu 22.04 server freshly installed.
 
