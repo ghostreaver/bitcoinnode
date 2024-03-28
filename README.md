@@ -9,7 +9,7 @@ Setup for a server hosting a Bitcoin pruned node based on Ubuntu 22.04 server fr
 Change user password
 
 ```shell
-passwd <username>
+passwd ${USER}
 ```
 
 Configure APT sources
@@ -129,5 +129,9 @@ Start Bitcoin Core again
 ```shell
 bitcoind -daemon
 ```
+
+* * *
+
+#### Conclusion
 
 Your pruned Bitcoin node should now be running on Ubuntu 22.04. Make sure to keep your node updated regularly and monitor its performance.
