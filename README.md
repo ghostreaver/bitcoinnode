@@ -4,13 +4,17 @@ Setup for a server hosting a Bitcoin pruned node on Ubuntu 22.04 server freshly 
 
 * * *
 
-#### Prepare the environment
+#### Change the user password
 
 Change user password
 
 ```shell
 passwd ${USER}
 ```
+
+* * *
+
+#### Prepare the environment
 
 Configure APT sources
 
@@ -104,6 +108,12 @@ Check synchronization progress
 
 ```shell
 bitcoin-cli getblockchaininfo
+```
+
+Reboot server
+
+```shell
+sudo reboot now
 ```
 
 * * *
