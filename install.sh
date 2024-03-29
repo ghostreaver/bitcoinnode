@@ -1,9 +1,5 @@
 #!/bin/bash
 
-## Change user password
-## --------------------
-passwd ${USER}
-
 ## Configure APT sources
 ## ---------------------
 sudo add-apt-repository -y main && sudo add-apt-repository -y restricted && sudo add-apt-repository -y universe && sudo add-apt-repository -y multiverse
@@ -68,3 +64,7 @@ bitcoind -daemon
 ## Check synchronization progress
 ## ------------------------------
 bitcoin-cli getblockchaininfo
+
+## Reboot server
+## -------------
+sudo reboot now
