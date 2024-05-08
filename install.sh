@@ -6,9 +6,9 @@ sudo add-apt-repository -y main && sudo add-apt-repository -y restricted && sudo
 
 ## Keep system safe
 ## ----------------
-sudo apt-get -y update && sudo apt-get -y upgrade && sudo apt-get -y dist-upgrade
-sudo apt-get -y remove && sudo apt-get -y autoremove
-sudo apt-get -y clean && sudo apt-get -y autoclean
+sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade
+sudo apt -y remove && sudo apt -y autoremove
+sudo apt -y clean && sudo apt -y autoclean
 
 ## Disable error reporting
 ## -----------------------
@@ -24,11 +24,11 @@ sudo systemctl restart sshd.service
 
 ## Install prerequisite packages
 ## -----------------------------
-sudo apt-get -y install git build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libminiupnpc-dev libzmq3-dev
+sudo apt -y install git build-essential libtool autotools-dev automake pkg-config bsdmainutils python3 libssl-dev libevent-dev libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libminiupnpc-dev libzmq3-dev
 
 ## Install Berkeley DB
 ## -------------------
-sudo apt-get -y install libdb5.3++-dev
+sudo apt -y install libdb5.3++-dev
 
 ## Clone the Bitcoin Core repository from GitHub.
 cd /home/ubuntu
