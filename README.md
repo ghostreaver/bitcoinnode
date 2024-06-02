@@ -43,7 +43,7 @@ sudo sed -i "s/#Port 22/Port 49622/" /etc/ssh/sshd_config
 sudo sed -i "s/#LoginGraceTime 2m/LoginGraceTime 2m/" /etc/ssh/sshd_config
 sudo sed -i "s/#PermitRootLogin prohibit-password/PermitRootLogin no/" /etc/ssh/sshd_config
 sudo sed -i "s/#StrictModes yes/StrictModes yes/" /etc/ssh/sshd_config
-sudo systemctl restart sshd.service
+sudo systemctl restart ssh.service
 ```
 
 Install prerequisite packages
