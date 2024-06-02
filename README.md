@@ -1,6 +1,6 @@
 ## Bitcoin Pruned Node Server
 
-Setup for a server hosting a Bitcoin pruned node on Ubuntu 22.04 server freshly installed.
+Setup for a server hosting a Bitcoin pruned node on Ubuntu 24.04 server freshly installed.
 
 * * *
 
